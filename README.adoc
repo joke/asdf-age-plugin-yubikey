@@ -1,0 +1,30 @@
+= asdf-age-plugin-yubikey
+
+image:https://github.com/joke/asdf-age-plugin-yubikey/actions/workflows/build.yml/badge.svg[link=https://github.com/joke/asdf-age-plugin-yubikey/actions/workflows/build.yml]
+image:https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg[link=https://conventionalcommits.org]
+image:https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit[pre-commit, link=https://github.com/pre-commit/pre-commit]
+
+https://github.com/str4d/age-plugin-yubikey[age-plugin-yubikey]
+plugin for the https://github.com/asdf-vm/asdf[asdf] / https://github.com/jdxcode/rtx[rtx] version manager.
+
+== Install
+
+[source,shell]
+.asdf
+----
+asdf plugin add age-plugin-yubikey
+# or
+asdf plugin add age-plugin-yubikey https://github.com/joke/asdf-age-plugin-yubikey.git
+----
+
+[source,shell]
+.rtx
+----
+asdf plugins install age-plugin-yubikey age-plugin-yubikey
+# or
+asdf plugins install age-plugin-yubikey https://github.com/joke/asdf-age-plugin-yubikey.git
+----
+
+== Contributing
+
+If you're looking to contribute, you can find additional information in link:CONTRIBUTING.adoc[here].
